@@ -34,5 +34,5 @@ export default function (SpecificComponent,option,adminRoute =null){//option nul
             <SpecificComponent/>
         )
     }
-    return<AuthenticationCheck/>
+    return AuthenticationCheck
 }
